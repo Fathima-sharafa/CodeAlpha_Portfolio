@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fathima Sharafa | Applied IT Student</title>
+<meta name="description" content="Portfolio of Fathima Sharafa, final-year Applied IT student at SLTC Research University.">
+<style>
+  :root { --ink:#14122b; --ink2:#241f4a; --paper:#f3f1fa; --violet:#6c4cf1; --pink:#ff6b8b; --mute:#5b5878; --line:#dcd8ee; --white:#fff; }
+  * { box-sizing:border-box; margin:0; }
+  html { scroll-behavior:smooth; scroll-padding-top:64px; }
+  body { font-family:"Segoe UI",Tahoma,sans-serif; background:var(--paper); color:var(--ink); line-height:1.65; }
+  h1,h2,h3 { font-family:"Trebuchet MS","Segoe UI",sans-serif; line-height:1.2; }
+  a { color:inherit; }
+  :focus-visible { outline:3px solid var(--pink); outline-offset:3px; }
+
+  nav { position:sticky; top:0; z-index:10; background:var(--ink); display:flex; gap:22px; padding:0 20px; height:52px; align-items:center; overflow-x:auto; }
+  nav a { color:#cfcbee; text-decoration:none; font-size:.95rem; white-space:nowrap; border-bottom:2px solid transparent; padding:4px 0; transition:color .2s, border-color .2s; }
+  nav a:hover { color:var(--white); border-color:var(--pink); }
+  nav .brand { color:var(--white); font-weight:700; margin-right:auto; }
+
+  .wrap { max-width:960px; margin:0 auto; }
+  .hero { background:var(--ink); color:var(--white); padding:88px 20px 76px; background-image:radial-gradient(circle at 85% 20%, rgba(108,76,241,.55), transparent 45%); }
+  .hero h1 { font-size:clamp(2.3rem,7.5vw,4rem); animation:rise .8s ease both; }
+  .hero .role { margin-top:14px; font-size:1.2rem; color:#cfcbee; animation:rise .8s .12s ease both; }
+  .hero p { margin-top:14px; max-width:34em; color:#bdb8e0; animation:rise .8s .24s ease both; }
+  .btns { margin-top:28px; display:flex; flex-wrap:wrap; gap:12px; animation:rise .8s .36s ease both; }
+  .btn { display:inline-block; padding:12px 22px; border-radius:8px; text-decoration:none; font-weight:600; border:2px solid var(--pink); transition:transform .2s, background .2s, color .2s; }
+  .btn.fill { background:var(--pink); color:var(--ink); }
+  .btn.ghost { color:var(--white); }
+  .btn:hover { transform:translateY(-3px); }
+  .btn.ghost:hover { background:var(--pink); color:var(--ink); }
+  @keyframes rise { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:none; } }
+
+  section { padding:64px 20px; }
+  section:nth-of-type(even) { background:var(--white); }
+  h2 { font-size:1.9rem; margin-bottom:24px; }
+  .chips { display:flex; flex-wrap:wrap; gap:10px; list-style:none; padding:0; }
+  .chips li { border:2px solid var(--violet); color:var(--violet); border-radius:999px; padding:7px 18px; font-weight:600; transition:background .2s, color .2s; }
+  .chips li:hover { background:var(--violet); color:var(--white); }
+
+  .gh { font-size:1rem; color:var(--mute); margin:20px 0 10px; }
+  .gh:first-of-type { margin-top:0; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; }
+  .card { background:var(--paper); border:1px solid var(--line); border-left:5px solid var(--violet); border-radius:10px; padding:20px; transition:transform .25s, box-shadow .25s; }
+  section:nth-of-type(odd) .card { background:var(--white); }
+  .card:hover { transform:translateY(-6px); box-shadow:0 14px 28px rgba(20,18,43,.15); }
+  .card h3 { font-size:1.1rem; margin-bottom:6px; }
+  .card p { color:var(--mute); font-size:.95rem; }
+  .card a { display:inline-block; margin:10px 14px 0 0; color:var(--violet); font-weight:600; text-decoration:none; }
+  .card a:hover { text-decoration:underline; }
+  .when { color:var(--mute); font-size:.9rem; }
+
+  .contact a.line { display:block; padding:10px 0; border-bottom:1px solid var(--line); text-decoration:none; transition:padding-left .2s, color .2s; }
+  .contact a.line:hover { padding-left:10px; color:var(--violet); }
+  .contact a.line b { display:inline-block; min-width:90px; }
+  footer { background:var(--ink); color:#a9a4d0; text-align:center; padding:22px; font-size:.9rem; }
+  @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { animation:none !important; transition:none !important; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="#top">Fathima Sharafa</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#certificates">Exams</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1>Fathima Sharafa</h1>
+    <div class="role">Applied IT student, SLTC Research University</div>
+    <p>Final-year student who builds websites, web apps and mobile apps, and has competed in a hackathon at ICST.</p>
+    <div class="btns">
+      <a class="btn fill" href="#projects">See my projects</a>
+      <a class="btn ghost" href="#contact">Contact me</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About me</h2>
+    <p>I study Applied IT at SLTC Research University and I am now in my final year. Since my first year I have been building projects, and three of them are on my GitHub. I also work part-time, which has taught me how to manage my time and work with a team.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <!-- TODO: delete any skill you do not know -->
+    <h3 class="gh">Programming</h3>
+    <ul class="chips"><li>Java</li><li>Python</li><li>C</li><li>Dart</li><li>JavaScript</li></ul>
+    <h3 class="gh">Web development</h3>
+    <ul class="chips"><li>HTML</li><li>CSS</li><li>Responsive design</li><li>Web design</li></ul>
+    <h3 class="gh">Mobile development</h3>
+    <ul class="chips"><li>Flutter</li><li>Firebase</li><li>Mobile app UI</li></ul>
+    <h3 class="gh">Computer science</h3>
+    <ul class="chips"><li>Data structures &amp; algorithms</li><li>Object-oriented programming</li><li>Problem solving</li><li>Database management</li><li>SQL</li><li>MySQL</li></ul>
+    <h3 class="gh">Tools</h3>
+    <ul class="chips"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Figma</li><li>Microsoft Office</li></ul>
+    <h3 class="gh">Soft skills</h3>
+    <ul class="chips"><li>Teamwork</li><li>Time management</li><li>Communication</li></ul>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <!-- TODO: replace the GitHub links with the real repo link for each project -->
+    <div class="cards">
+      <div class="card"><h3>House of Sulafa Fashion Store Mobile App</h3><p>A fashion store mobile application built with Flutter and Firebase. I explain the project in a video on my YouTube channel.</p><a href="https://youtu.be/9hWwJYEmiTU" target="_blank" rel="noopener">Watch on YouTube</a> <a href="https://github.com/Fathima-sharafa" target="_blank" rel="noopener">GitHub</a></div>
+      <div class="card"><h3>Emergency Hospital Management System</h3><p>Manages hospital emergency cases, built with data structures and algorithms.</p><a href="https://github.com/Fathima-sharafa" target="_blank" rel="noopener">View on GitHub</a></div>
+      <div class="card"><h3>Campus Student Management System</h3><p>Manages campus student records, built with data structures and algorithms.</p><a href="https://github.com/Fathima-sharafa" target="_blank" rel="noopener">View on GitHub</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <h2>Experience and achievements</h2>
+    <div class="cards">
+      <div class="card"><h3>Part-time worker, ABM Group (Pvt) Ltd</h3><div class="when">Part-time</div></div>
+      <div class="card"><h3>Hackathon participant, ICST</h3><div class="when">May 2025</div><p>Took part in the hackathon and received a certificate.</p></div>
+      <div class="card"><h3>Frontend Development intern, CodeAlpha</h3><div class="when">2026</div><p>Building a calculator and this portfolio.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Education</h2>
+    <div class="cards">
+      <div class="card"><h3>Applied IT, SLTC Research University</h3><div class="when">2024 to present, final year</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="certificates">
+  <div class="wrap">
+    <h2>IT exams and certificates</h2>
+    <div class="cards">
+      <div class="card"><h3>ICST Hackathon certificates</h3><div class="when">Received May 2025</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <a class="line" href="mailto:jabeersharafa@gmail.com"><b>Email</b> jabeersharafa@gmail.com</a>
+    <a class="line" href="https://github.com/Fathima-sharafa" target="_blank" rel="noopener"><b>GitHub</b> github.com/Fathima-sharafa</a>
+    <a class="line" href="https://www.linkedin.com/in/fathima-sharafa-36a141323" target="_blank" rel="noopener"><b>LinkedIn</b> linkedin.com/in/fathima-sharafa-36a141323</a>
+  </div>
+</section>
+
+<footer>&copy; 2026 Fathima Sharafa. Built with HTML and CSS for CodeAlpha.</footer>
+</body>
+</html>
